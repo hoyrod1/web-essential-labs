@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(213, 206, 221);
+}
+
+.container {
+  width: 90%;
+  height: 90vh;
+  margin: 20px auto;
+  padding: 5px;
+  background-color: rgb(115, 92, 137);
+}
+
+h1 {
+  color: brown;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.start-button-div {
+  width: 25%;
+  margin: 10px auto;
+}
+
+.start-button {
+  display: block;
+  width: 50%;
+  background-color: rgb(211, 163, 243);
+  color: rgb(120, 42, 42);
+  padding: 10px;
+  border-radius: 50%;
+  margin: auto;
+}
