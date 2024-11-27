@@ -17,10 +17,40 @@ body {
 }
 
 h1 {
-  color: brown;
+  color: rgb(235, 151, 151);
   text-decoration: underline;
   text-align: center;
 }
+/*------------------------------ BEGINNING OF NAV SECTION ------------------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(249, 249, 249);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 1s linear;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #962ae9;
+}
+/*------------------------------ ENDING OF NAV SECTION ------------------------------*/
 
 .start-button-div {
   width: 25%;
@@ -36,3 +66,9 @@ h1 {
   border-radius: 50%;
   margin: auto;
 }
+/*-----------------------------------------------------------------------------------*/
+.footer-logo {
+  color: white;
+  text-align: center;
+}
+/* -----------------------------------------------------------------------------------*/
